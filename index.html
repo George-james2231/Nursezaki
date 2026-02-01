@@ -12,10 +12,25 @@
       color: #333;
     }
     header {
-      background: #2f80ed;
+      background: url('header-image.jpg') center/cover no-repeat;
       color: white;
-      padding: 2rem 1rem;
+      padding: 4rem 1rem;
       text-align: center;
+      position: relative;
+    }
+    header::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0,0,0,0.45);
+      z-index: 0;
+    }
+    header h1, header p {
+      position: relative;
+      z-index: 1;
     }
     header h1 {
       margin: 0;
@@ -125,8 +140,8 @@
     </p>
     <p>
       📺 YouTube: <strong>@NurseZaki</strong><br />
-      📷 Instagram: <strong>@nursezaki</strong><br />
-      ✉️ Email: <strong>nursezaki@email.com</strong>
+      📷 Instagram: <strong>@narszak</strong><br />
+      ✉️ Email: <strong>zakiningala6@email.com</strong>
     </p>
   </section>
 
