@@ -1,2 +1,2 @@
-# Nursezaki.github.io
+# Nursezaki
 Awesomesauce website for STS yessss
