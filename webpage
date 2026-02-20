@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>ZAKI IHDE T. NINGALA | Welcome to my homepage!</title>
+
+<style type="text/css">
+body {
+    background-image: url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/genshin-impact/e/e8/Etqwkfv35ow91.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    font-family: 'Calibri', Arial, sans-serif;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    animation: moveBackground 60s ease-in-out infinite alternate;
+}
+
+/* TEXT CONTAINER */
+.container {
+    background: rgba(0, 0, 0, 0.65); /* Dark transparent background */
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+/* Background animation */
+@keyframes moveBackground {
+    0% { background-position: left center; }
+    50% { background-position: center center; }
+    100% { background-position: right center; }
+}
+
+h1 {
+    font-family: 'Georgia', serif;
+    font-size: 40px;
+    color: #FFD700;
+    text-shadow: 2px 2px #000000;
+}
+
+h2 {
+    font-family: 'Georgia', serif;
+    font-size: 28px;
+    color: #32CD32;
+    text-shadow: 1px 1px #000000;
+}
+
+h3 {
+    font-family: 'Georgia', serif;
+    font-size: 22px;
+    color: #F40097;
+    margin-top: 30px;
+}
+
+p {
+    font-family: 'Verdana', Geneva, sans-serif;
+    font-size: 16px;
+    color: #FFFFFF; /* Changed to white for readability */
+    line-height: 1.6;
+}
+
+address {
+    font-family: 'Verdana', Geneva, sans-serif;
+    font-size: 16px;
+    color: #90EE90; /* Light green */
+    font-style: normal;
+}
+
+blockquote {
+    font-family: 'Georgia', serif;
+    font-size: 18px;
+    color: #FFD700;
+    font-style: italic;
+    margin: 20px auto;
+    max-width: 800px;
+    border-left: 4px solid #FFD700;
+    padding-left: 15px;
+}
+
+h6 {
+    font-family: 'Verdana', Geneva, sans-serif;
+    font-size: 12px;
+    color: #FFD700;
+}
+
+hr {
+    border: 1px solid #FFFFFF;
+    width: 100%;
+    margin: 20px auto;
+}
+
+.profile-pic {
+    display: block;
+    margin: 20px auto;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #3099D3;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<hr/>
+
+<img src="https://i.imgur.com/dBDZ542.jpeg" alt="Zaki Ihde T. Ningala" class="profile-pic" />
+
+<h1>ZAKI IHDE T. NINGALA</h1>
+<hr/>
+
+<h2>Welcome to my web page!</h2>
+
+<h3>About Me</h3>
+<p>My name is Zaki Ihde T. Ningala. I am a second-year Bachelor of Science in Nursing student.</p>
+<p>I like trying out new things because curiosity always gets the best of me,</p>
+<p>which is also the reason I possess various skills and knowledge in a variety of genres.</p>
+
+<h3>My Address</h3>
+<address>RM 111, Nursing Building<br/>
+Aklan Polytechnic College<br/>
+Philippines, 5605</address>
+
+<h3>My Favorite Music</h3>
+<p>I like <strong>Hip-hop music</strong>, <strong>Grunge Music</strong>, <strong>Alt Music</strong>, and <strong>Classical Music</strong>.</p>
+
+<h3>Favorite Books</h3>
+<p><strong>The 48 Laws of Power</strong> by Robert Greene</p>
+
+<h3>My Course</h3>
+<p>I'm taking <strong>BACHELOR OF SCIENCE IN NURSING</strong></p>
+
+<h3>My Favorite Quote</h3>
+<blockquote>"A journey of a thousand miles begins with a single step". — Laozi</blockquote>
+
+<hr/>
+<h6>&copy; 2026 Zaki Ihde T. Ningala</h6>
+<hr/>
+
+</div>
+
+</body>
+</html>
