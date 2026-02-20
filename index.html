@@ -1,211 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Nurse Zaki | Nursing Career Vlog</title>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-  <style>
-   body {
-  margin: 0;
-  font-family: 'Roboto', Arial, Helvetica, sans-serif;
-  background-color: #f7f9fc;
-  color: #333;
+<meta charset="UTF-8">
+<title>ZAKI IHDE T. NINGALA | Welcome to my homepage!</title>
+
+<style type="text/css">
+body {
+    background-image: url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/genshin-impact/e/e8/Etqwkfv35ow91.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    font-family: 'Calibri', Arial, sans-serif;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    animation: moveBackground 60s ease-in-out infinite alternate;
 }
 
-    header {
-      background: url('header-image.jpg') center/cover no-repeat;
-      color: white;
-      padding: 4rem 1rem;
-      text-align: center;
-      position: relative;
-    }
-    header::after {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background: rgba(0,0,0,0.45);
-      z-index: 0;
-    }
-    header h1, header p {
-      position: relative;
-      z-index: 1;
-    }
-    header h1 {
-      margin: 0;
-      font-size: 2.5rem;
-    }
-    header p {
-      font-size: 1.1rem;
-      max-width: 600px;
-      margin: 0.5rem auto 0;
-    }
-    nav {
-      background: #ffffff;
-      display: flex;
-      justify-content: center;
-      gap: 2rem;
-      padding: 1rem;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-    }
-    nav a {
-      text-decoration: none;
-      color: #2f80ed;
-      font-weight: bold;
-    }
-    section {
-      padding: 3rem 1.5rem;
-      max-width: 1000px;
-      margin: auto;
-    }
-    h2 {
-      color: #2f80ed;
-      margin-bottom: 1rem;
-    }
-    .cards {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 1.5rem;
-    }
-    .card {
-      background: white;
-      padding: 1.5rem;
-      border-radius: 10px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
-    }
-    .card a {
-  color: #2f80ed;
-  text-decoration: none;
+/* TEXT CONTAINER */
+.container {
+    background: rgba(0, 0, 0, 0.65); /* Dark transparent background */
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 15px;
 }
 
-.card a:hover {
-  text-decoration: underline;
+/* Background animation */
+@keyframes moveBackground {
+    0% { background-position: left center; }
+    50% { background-position: center center; }
+    100% { background-position: right center; }
 }
 
-    footer {
-      background: #2f80ed;
-      color: white;
-      text-align: center;
-      padding: 1.5rem 1rem;
-      margin-top: 3rem;
-    }
-    
-  body::before {
-  content: '';
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(255,255,255,0.2);
-  z-index: -1;
+h1 {
+    font-family: 'Georgia', serif;
+    font-size: 40px;
+    color: #FFD700;
+    text-shadow: 2px 2px #000000;
 }
-    
-html {
-  scroll-behavior: smooth;
+
+h2 {
+    font-family: 'Georgia', serif;
+    font-size: 28px;
+    color: #32CD32;
+    text-shadow: 1px 1px #000000;
 }
-  </style>
+
+h3 {
+    font-family: 'Georgia', serif;
+    font-size: 22px;
+    color: #F40097;
+    margin-top: 30px;
+}
+
+p {
+    font-family: 'Verdana', Geneva, sans-serif;
+    font-size: 16px;
+    color: #FFFFFF; /* Changed to white for readability */
+    line-height: 1.6;
+}
+
+address {
+    font-family: 'Verdana', Geneva, sans-serif;
+    font-size: 16px;
+    color: #90EE90; /* Light green */
+    font-style: normal;
+}
+
+blockquote {
+    font-family: 'Georgia', serif;
+    font-size: 18px;
+    color: #FFD700;
+    font-style: italic;
+    margin: 20px auto;
+    max-width: 800px;
+    border-left: 4px solid #FFD700;
+    padding-left: 15px;
+}
+
+h6 {
+    font-family: 'Verdana', Geneva, sans-serif;
+    font-size: 12px;
+    color: #FFD700;
+}
+
+hr {
+    border: 1px solid #FFFFFF;
+    width: 100%;
+    margin: 20px auto;
+}
+
+.profile-pic {
+    display: block;
+    margin: 20px auto;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #3099D3;
+}
+</style>
 </head>
+
 <body>
 
-  <header>
-    <h1>Nurse Zaki</h1>
-    <p>A nursing career vlog documenting student life, clinical duties, Studying Science Technology and Society, NCLEX prep, and real-life nursing experiences!</p>
-  </header>
+<div class="container">
 
-  <nav>
-    <a href="#about">About</a>
-    <a href="#vlog">Vlogs</a>
-    <a href="#topics">Topics</a>
-    <a href="#contact">Contact</a>
-  </nav>
+<hr/>
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>
-      Hi there!  I’m Zaki Ningala, your friendly nursing student navigating the wild (and wonderful) world of scrubs, stethoscopes, and endless coffee . From hospital corridors to study marathons, I’m sharing my real-life adventures, tips, and lessons learned along the way.
+<img src="https://i.imgur.com/dBDZ542.jpeg" alt="Zaki Ihde T. Ningala" class="profile-pic" />
 
-When I’m not charting vitals or prepping for NCLEX, you’ll find me exploring new self-care hacks, geeking out over medical knowledge, or documenting my journey so other aspiring nurses can learn, laugh, and grow with me.
+<h1>ZAKI IHDE T. NINGALA</h1>
+<hr/>
 
-Follow along for a peek into life as a nursing student, a future RN, and someone who believes that a little humor and heart go a long way in healthcare. 
-    </p>
-  </section>
+<h2>Welcome to my web page!</h2>
 
-  <section id="vlog">
-    <h2>Latest Vlogs</h2>
-    <div class="card">
-  <h3>Understanding Science, Technology and Science</h3>
-  <iframe 
-    width="100%" 
-    height="215"
-    src="https://www.youtube.com/embed/GBZZdQnae4E?si=brJpYkUUQ3t0cNiR&amp;controls=0"
-    frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    allowfullscreen>
-  </iframe>
+<h3>About Me</h3>
+<p>My name is Zaki Ihde T. Ningala. I am a second-year Bachelor of Science in Nursing student.</p>
+<p>I like trying out new things because curiosity always gets the best of me,</p>
+<p>which is also the reason I possess various skills and knowledge in a variety of genres.</p>
+
+<h3>My Address</h3>
+<address>RM 111, Nursing Building<br/>
+Aklan Polytechnic College<br/>
+Philippines, 5605</address>
+
+<h3>My Favorite Music</h3>
+<p>I like <strong>Hip-hop music</strong>, <strong>Grunge Music</strong>, <strong>Alt Music</strong>, and <strong>Classical Music</strong>.</p>
+
+<h3>Favorite Books</h3>
+<p><strong>The 48 Laws of Power</strong> by Robert Greene</p>
+
+<h3>My Course</h3>
+<p>I'm taking <strong>BACHELOR OF SCIENCE IN NURSING</strong></p>
+
+<h3>My Favorite Quote</h3>
+<blockquote>"A journey of a thousand miles begins with a single step". — Laozi</blockquote>
+
+<hr/>
+<h6>&copy; 2026 Zaki Ihde T. Ningala</h6>
+<hr/>
+
 </div>
-      <div class="card">
-  <h3>NCLEX and Board Exam Tips</h3>
-  <iframe 
-    width="100%" 
-    height="215"
-    src="https://www.youtube.com/embed/AhAPsus69Vw?si=Z3MFD9nOH1i4ql15&amp;controls=0"
-    frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    allowfullscreen>
-  </iframe>
-</div>
-
-      <div class="card">
-  <h3>Skills and Procedures</h3>
-  <iframe 
-    width="100%" 
-    height="215"
-    src="https://www.youtube.com/embed/gUWJ-6nL5-8?si=hgOyjYtbOGi6ddlV&amp;controls=0"
-    frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    allowfullscreen>
-  </iframe>
-</div>
-  </section>
-
-  <section id="topics">
-    <h2>What I Share</h2>
-    <ul>
-      <li>Nursing school survival tips</li>
-      <li>Hospital duty experiences</li>
-      <li>Study routines & productivity</li>
-      <li>Self-care for student nurses</li>
-      <li>Career guidance & motivation</li>
-    </ul>
-  </section>
-
-  <section id="contact">
-    <h2>Contact & Socials</h2>
-    <p>
-      Follow my journey and connect with me:
-    </p>
-    <p>
-      📺 YouTube: <strong>@NurseZaki</strong><br />
-      📷 Instagram: <strong>@narszak</strong><br />
-      ✉️ Email: <strong>zakiningala6@email.com</strong>
-    </p>
-  </section>
-
-  <footer>
-    <p>© 2026 Nurse Zaki | Nursing Career Vlog</p>
-  </footer>
 
 </body>
 </html>
-
-
-
-
-
 
 
 
